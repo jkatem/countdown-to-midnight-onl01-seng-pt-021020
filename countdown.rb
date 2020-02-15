@@ -1,10 +1,8 @@
-#write your code here
-LOOPS = 10
-
-def countdown
-  while LOOPS < 10
-      puts `#{number} SECOND(S)!`
-      LOOPS -= 1
+def countdown(num)
+  while num > 0
+    puts "#{num} SECOND(S)!"
+    num -= 1
   end
+  'HPPY NEW YEAR'
 end
-countdown
+countdown(10)
